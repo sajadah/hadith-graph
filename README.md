@@ -28,3 +28,5 @@ Run the app:
 ```
 DEBUG=hadith-graph:* npm start
 ```
+
+For easiness in development, you can install [nodemon](https://github.com/remy/nodemon) in your local machine. nodemon will watch the files in the directory in which nodemon was started, and if any files change, nodemon will automatically restart your node application
