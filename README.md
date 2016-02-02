@@ -36,3 +36,15 @@ After install nodemon, then run:
 ```
 DEBUG=hadith-graph:* nodemon bin/www
 ```
+
+## Database
+
+Hadith Graph use [OrientDB](http://orientdb.com/) as the primary data store. Type the following command to install Orient:
+
+For OSX
+
+```
+brew install orientdb
+```
+
+For Linux distro, please read this doc https://www.digitalocean.com/community/tutorials/how-to-install-and-use-orientdb-on-an-ubuntu-12-04-vps
