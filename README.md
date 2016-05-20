@@ -1,5 +1,5 @@
 # hadith-graph
-A graph knowledge Hadith of the Prophet Muhammad (صلى الله عليه و سلم)
+A Frontend app for graph knowledge Hadith of the Prophet Muhammad (صلى الله عليه و سلم)
 
 ## How To Contribute
 
@@ -39,12 +39,12 @@ DEBUG=hadith-graph:* nodemon bin/www
 
 ## Database
 
-Hadith Graph use [OrientDB](http://orientdb.com/) as the primary data store. Type the following command to install Orient:
+Hadith Graph use [ArangoDB](https://arangodb.com) as the primary data store. Type the following command to install Orient:
 
 For OSX
 
 ```
-brew install orientdb
+brew install arangodb
 ```
 
-For Linux distro, please read this doc https://www.digitalocean.com/community/tutorials/how-to-install-and-use-orientdb-on-an-ubuntu-12-04-vps
+For other OS, please read this doc https://www.arangodb.com/download/
